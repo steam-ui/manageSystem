@@ -1,0 +1,9 @@
+项目名称：海淘网电商管理系统
+使用技术：
+          Vue, node.js, express, mySql
+1.搭建基于node环境的服务器
+2.引入express，创建服务器
+3.连接数据库
+    3.1.连接数据库需要下载mysql(- npm install mysql -S -)
+    3.2 引入mysql  另外req.body需要对表单数据进行解析,还需引入body-parser
+4.

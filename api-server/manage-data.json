@@ -1,0 +1,502 @@
+
+{
+  "boradSide": [
+    {"iconfonts": "sadasdas","functionColumn": "系统首页"},
+    {"iconfonts": "sadasdas","functionColumn": "交易管理"},
+    {"iconfonts": "sadasdas","functionColumn": "支付管理"},
+    {"iconfonts": "sadasdas","functionColumn": "系统管理"},
+    {"iconfonts": "sadasdas","functionColumn": "文章管理"},
+    {"iconfonts": "sadasdas","functionColumn": "管理员"},
+    {"iconfonts": "sadasdas","functionColumn": "会员管理"},
+    {"iconfonts": "sadasdas","functionColumn": "报表管理"},
+    {"iconfonts": "sadasdas","functionColumn": "广告管理"},
+    {"iconfonts": "sadasdas","functionColumn": "单页管理"},
+    {"iconfonts": "sadasdas","functionColumn": "前端管理"},
+    {"iconfonts": "sadasdas","functionColumn": "留言管理"},
+    {"iconfonts": "sadasdas","functionColumn": "店铺管理"}
+
+  ],
+  "systemIndex": {
+      "topSide": [
+        {"iconfonts": "sddsfsd","menuList":"成交金额","amountData": "4567"},
+        {"iconfonts": "sddsfsd","menuList":"留言","messageData": "4567"},
+        {"iconfonts": "sddsfsd","menuList":"订单","amountData": "4567"},
+        {"iconfonts": "sddsfsd","menuList":"通知","amountData": "4567"},
+        {"iconfonts": "sddsfsd","menuList":"待处理","amountData": "4567"},
+        {"iconfonts": "sddsfsd","menuList":"紧急通知","amountData": "4567"}
+      ],
+      "shopInfo": {
+        "shopIntroduce": [
+          {"shopName":"三台山购物网","shopRank": "三级","shopType": "电子商务","销售类型": "综合","shopID": "123456","businessID": "12345678","onlineTime": "2016-08-21","shopDescribe": "4.5","shopServer": "4.5","shopLogistics": "4.5"},
+          {"shopName":"三台山购物网","shopRank": "三级","shopType": "电子商务","销售类型": "综合","shopID": "123456","businessID": "12345678","onlineTime": "2016-08-21","shopDescribe": "4.5","shopServer": "4.5","shopLogistics": "4.5"},
+          {"shopName":"三台山购物网","shopRank": "三级","shopType": "电子商务","销售类型": "综合","shopID": "123456","businessID": "12345678","onlineTime": "2016-08-21","shopDescribe": "4.5","shopServer": "4.5","shopLogistics": "4.5"},
+          {"shopName":"三台山购物网","shopRank": "三级","shopType": "电子商务","销售类型": "综合","shopID": "123456","businessID": "12345678","onlineTime": "2016-08-21","shopDescribe": "4.5","shopServer": "4.5","shopLogistics": "4.5"}
+        ],
+        "shopFlexible": [ "添加商品","添加广告","添加页面","新增单页面"]
+
+      },
+      "shopActive": {
+        "orderRemind": "店铺/订单状态提醒",
+        "statusShow": [
+          {
+            "orderServer": "订单/商品",
+            "statusInfo": {"waitOperate":"待发货订单","alreadyOperate": "已完成订单","unfinishOperate": "未完成订单"}
+          },
+          {
+            "orderServer": "促销",
+            "statusInfo": {"waitOperate":"待审核促销","alreadyOperate": "发布的促销","unfinishOperate": "一结束的促销"}
+          },
+          {
+            "orderServer": "售后",
+            "statusInfo": {"waitOperate":"待处理订单","alreadyOperate": "待退款订单","unfinishOperate": "待处理售后单"}
+          },
+          {
+            "orderServer": "结算",
+            "statusInfo": {"waitOperate":"待支付","alreadyOperate": "待结算确认"}
+          }
+        ]
+      },
+      "goodsAmong": {
+        "amongTitle": "商品销售排行",
+        "amongActive": {"chartsList": "排行榜","goodsNumber": "商品编号","goodsName": "商品名称","sallNumber": "销售数量"},
+        "sallList": [
+          {"rankNumber": "1","goodsIdentify": "123456","goodsInfo": "联想（ThinkPad）轻薄系列","sallCode": "23"},
+          {"rankNumber": "2","goodsIdentify": "123456","goodsInfo": "联想（ThinkPad）轻薄系列","sallCode": "23"},
+          {"rankNumber": "3","goodsIdentify": "123456","goodsInfo": "联想（ThinkPad）轻薄系列","sallCode": "23"},
+          {"rankNumber": "4","goodsIdentify": "123456","goodsInfo": "联想（ThinkPad）轻薄系列","sallCode": "23"},
+          {"rankNumber": "5","goodsIdentify": "123456","goodsInfo": "联想（ThinkPad）轻薄系列","sallCode": "23"},
+          {"rankNumber": "6","goodsIdentify": "123456","goodsInfo": "联想（ThinkPad）轻薄系列","sallCode": "23"},
+          {"rankNumber": "7","goodsIdentify": "123456","goodsInfo": "联想（ThinkPad）轻薄系列","sallCode": "23"},
+          {"rankNumber": "8","goodsIdentify": "123456","goodsInfo": "联想（ThinkPad）轻薄系列","sallCode": "23"},
+          {"rankNumber": "9","goodsIdentify": "123456","goodsInfo": "联想（ThinkPad）轻薄系列","sallCode": "23"},
+          {"rankNumber": "10","goodsIdentify": "123456","goodsInfo": "联想（ThinkPad）轻薄系列","sallCode": "23"}
+        ]
+      }
+  },
+  "goodsManage": {
+    "addCommodity": {
+
+    },
+    "brandManage": {
+        "munuCloumn": {"ID": "ID","ranks": "排序","logo": "品牌Logo","brandName": "品牌名称","areas": "所属地区/国家","nums": "数量","addTime": "加入时间","status": "状态","operate": "操作"},
+        "goodsInfoList":[
+          {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+          {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+          {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+          {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+          {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+          {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+          {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+          {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+          {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+          {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"}
+        ]
+    },
+    "goodsClasify": {
+      "activeCloumn": {"goodsSerial":"产品编号","classify": "分类","goodsName": "产品名称","privatePrice": "原价格","nowPrice": "现价","areas":"所属地区/国家","addTime": "加入时间","justify": "审核状态","status": "状态","operater": "操作"},
+      "goodsList": [
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]}
+
+      ]
+    },
+    "classifyManage": {
+      "activeCloumn": {"goodsSerial":"产品编号","classify": "分类","goodsName": "产品名称","privatePrice": "原价格","nowPrice": "现价","areas":"所属地区/国家","addTime": "加入时间","justify": "审核状态","status": "状态","operater": "操作"},
+      "goodsList": [
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]},
+        {"goodsID": "12345","goodsClassify": "手机","goodsInfo": "小米Max全网通，高配版32G内存","primary": "2999","current": "2699","belongAresa": "中国","addTimes": "2018-02-14","justifyStatus": "通过","nowSatatus": "商家","operterTools": ["下架","编辑","删除"]}
+
+      ]
+    }
+  },
+  "tradeManage": {
+    "orderList": {
+      "orderAside": {
+        "orderType": "订单类型",
+        "orderClassify": [
+          {
+            "orderTitle": {"iconfonts": "","orderName": "食品/酒类/特产","orderNum": "(234)"},
+            "orderBox": [
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"}
+            ]
+
+          },
+          {
+            "orderTitle": {"iconfonts": "","orderName": "食品/酒类/特产","orderNum": "(234)"},
+            "orderBox": [
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"}
+            ]
+
+          },
+          {
+            "orderTitle": {"iconfonts": "","orderName": "食品/酒类/特产","orderNum": "(234)"},
+            "orderBox": [
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"}
+            ]
+
+          },
+          {
+            "orderTitle": {"iconfonts": "","orderName": "食品/酒类/特产","orderNum": "(234)"},
+            "orderBox": [
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"}
+            ]
+
+          },
+          {
+            "orderTitle": {"iconfonts": "","orderName": "食品/酒类/特产","orderNum": "(234)"},
+            "orderBox": [
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"}
+            ]
+
+          },
+          {
+            "orderTitle": {"iconfonts": "","orderName": "食品/酒类/特产","orderNum": "(234)"},
+            "orderBox": [
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"},
+              {"iconfonts": "","goodsName": "牛奶","goodsNums": "(30)"}
+            ]
+
+          }
+        ]
+      },
+      "orderInfoList": [
+        {"orderIdent": "订单编号","goodsName": "产品名称","totalPrice": "总价","cheap": "优惠","orderTime": "订单时间","belongStyle": "所属类型","nums": "数量","status": "状态","operater": "操作"},
+        {"goodsInfoList":[
+          {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","preferrntial": "30","purchaseTime": "2018-7-6","belongMold": "食品","goodsNum": "5","goodsStatus": "待发货","goodsOperate": ["发货","详情","删除"]},
+          {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","preferrntial": "30","purchaseTime": "2018-7-6","belongMold": "食品","goodsNum": "5","goodsStatus": "待发货","goodsOperate": ["发货","详情","删除"]},
+          {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","preferrntial": "30","purchaseTime": "2018-7-6","belongMold": "食品","goodsNum": "5","goodsStatus": "待发货","goodsOperate": ["发货","详情","删除"]},
+          {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","preferrntial": "30","purchaseTime": "2018-7-6","belongMold": "食品","goodsNum": "5","goodsStatus": "待发货","goodsOperate": ["发货","详情","删除"]},
+          {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","preferrntial": "30","purchaseTime": "2018-7-6","belongMold": "食品","goodsNum": "5","goodsStatus": "待发货","goodsOperate": ["发货","详情","删除"]},
+          {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","preferrntial": "30","purchaseTime": "2018-7-6","belongMold": "食品","goodsNum": "5","goodsStatus": "待发货","goodsOperate": ["发货","详情","删除"]},
+          {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","preferrntial": "30","purchaseTime": "2018-7-6","belongMold": "食品","goodsNum": "5","goodsStatus": "待发货","goodsOperate": ["发货","详情","删除"]},
+          {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","preferrntial": "30","purchaseTime": "2018-7-6","belongMold": "食品","goodsNum": "5","goodsStatus": "待发货","goodsOperate": ["发货","详情","删除"]},
+          {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","preferrntial": "30","purchaseTime": "2018-7-6","belongMold": "食品","goodsNum": "5","goodsStatus": "待发货","goodsOperate": ["发货","详情","删除"]},
+          {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","preferrntial": "30","purchaseTime": "2018-7-6","belongMold": "食品","goodsNum": "5","goodsStatus": "待发货","goodsOperate": ["发货","详情","删除"]},
+          {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","preferrntial": "30","purchaseTime": "2018-7-6","belongMold": "食品","goodsNum": "5","goodsStatus": "待发货","goodsOperate": ["发货","详情","删除"]}
+
+        ]}
+      ]
+    },
+    "rerurnList": [
+      {"orderIdent": "订单编号","goodsName": "产品名称","tradeVolume": "交易金额","tradeTime": "订单时间","drawback":"退款金额","nums": "数量","explain":"说明","status": "状态","teturnStatus":"退款状态","operater": "操作"},
+      {"goodsInfoList":[
+        {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","purchaseTime": "2018-7-6","returnPrice":"127","preferrntial": "30","explain":"重复购买退货一件","orderStatus": "未发货","returnStatus": "已退款","goodsOperate": ["发货","详情","删除"]},
+        {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","purchaseTime": "2018-7-6","returnPrice":"127","preferrntial": "30","explain":"重复购买退货一件","orderStatus": "未发货","returnStatus": "已退款","goodsOperate": ["发货","详情","删除"]},
+        {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","purchaseTime": "2018-7-6","returnPrice":"127","preferrntial": "30","explain":"重复购买退货一件","orderStatus": "未发货","returnStatus": "已退款","goodsOperate": ["发货","详情","删除"]},
+        {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","purchaseTime": "2018-7-6","returnPrice":"127","preferrntial": "30","explain":"重复购买退货一件","orderStatus": "未发货","returnStatus": "已退款","goodsOperate": ["发货","详情","删除"]},
+        {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","purchaseTime": "2018-7-6","returnPrice":"127","preferrntial": "30","explain":"重复购买退货一件","orderStatus": "未发货","returnStatus": "已退款","goodsOperate": ["发货","详情","删除"]},
+        {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","purchaseTime": "2018-7-6","returnPrice":"127","preferrntial": "30","explain":"重复购买退货一件","orderStatus": "未发货","returnStatus": "已退款","goodsOperate": ["发货","详情","删除"]},
+        {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","purchaseTime": "2018-7-6","returnPrice":"127","preferrntial": "30","explain":"重复购买退货一件","orderStatus": "未发货","returnStatus": "已退款","goodsOperate": ["发货","详情","删除"]},
+        {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","purchaseTime": "2018-7-6","returnPrice":"127","preferrntial": "30","explain":"重复购买退货一件","orderStatus": "未发货","returnStatus": "已退款","goodsOperate": ["发货","详情","删除"]},
+        {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","purchaseTime": "2018-7-6","returnPrice":"127","preferrntial": "30","explain":"重复购买退货一件","orderStatus": "未发货","returnStatus": "已退款","goodsOperate": ["发货","详情","删除"]},
+        {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","purchaseTime": "2018-7-6","returnPrice":"127","preferrntial": "30","explain":"重复购买退货一件","orderStatus": "未发货","returnStatus": "已退款","goodsOperate": ["发货","详情","删除"]},
+        {"orderNumber": "2016023847374","productName": ["/static/img.gif","/static/img.gif"],"allPrice": "456","purchaseTime": "2018-7-6","returnPrice":"127","preferrntial": "30","explain":"重复购买退货一件","orderStatus": "未发货","returnStatus": "已退款","goodsOperate": ["发货","详情","删除"]}
+      ]}
+    ],
+    "tradeStatis": {
+      "topSide": [
+        {"iconfonts": "sddsfsd","menuList":"成交金额","amountData": "4567"},
+        {"iconfonts": "sddsfsd","menuList":"留言","messageData": "4567"},
+        {"iconfonts": "sddsfsd","menuList":"订单","amountData": "4567"},
+        {"iconfonts": "sddsfsd","menuList":"通知","amountData": "4567"},
+        {"iconfonts": "sddsfsd","menuList":"待处理","amountData": "4567"},
+        {"iconfonts": "sddsfsd","menuList":"紧急通知","amountData": "4567"}
+      ]
+    },
+    "orderHandle": {
+      "munuCloumn": {"ID": "ID","ranks": "排序","logo": "品牌Logo","brandName": "品牌名称","areas": "所属地区/国家","nums": "数量","addTime": "加入时间","status": "状态","operate": "操作"},
+      "goodsInfoList":[
+        {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+        {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+        {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+        {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+        {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+        {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+        {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+        {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+        {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"},
+        {"IDnums": "12345","sort": "1","brandLogo": "/static/img/sing1.PNG","bransCall": "玉兰油OLAY","belongAreas": "法国","goodsNum": "23","times": "2018-02-14"}
+      ]
+    },
+    "logisticsManage": [
+      {"orderID": "21312312312","buyTime": "2018-07-06 12:20:20","payTime": "2018-07-06 12:25:20","payWay": "支付宝",
+        "goodsInfo":
+          [{"goodsName": "OPPO R9 4GB+64GB内存版 雪岩灰 全网通4G手机 双卡双待","goodsNum": "1","goodsPrice": "2499"}]
+        ,
+        "realityPay": "2499","goodsStatus": "待发货"
+      },
+      {"orderID": "21312312312","buyTime": "2018-07-06 12:20:20","payTime": "2018-07-06 12:25:20","payWay": "支付宝",
+        "goodsInfo":
+        [{"goodsName": "OPPO R9 4GB+64GB内存版 雪岩灰 全网通4G手机 双卡双待","goodsNum": "1","goodsPrice": "2499"},
+         {"goodsName": "OPPO R9 4GB+64GB内存版 雪岩灰 全网通4G手机 双卡双待","goodsNum": "1","goodsPrice": "2499"}]
+      ,
+        "realityPay": "4998","goodsStatus": "待发货"
+      }
+    ]
+  },
+  "payManage": {
+    "paySetting": {
+      "payCloumn": {"payName": "支付名称","payStatus": "支付状态","describe": "描述"},
+      "payList": [
+        {"payMenu": "在线支付（银联）","firing": "启动","close": "关闭","infomation": "在线支付是指卖方与买方通过因特网上的电子商务网站进行交易时，银行为其提供网上资金结算服务的一种业务。它为企业和个人提供了一个安全、快捷、方便的电子支付方式"},
+        {"payMenu": "在线支付（预存）","firing": "启动","close": "关闭","infomation": "在线支付是指卖方与买方通过因特网上的电子商务网站进行交易时，银行为其提供网上资金结算服务的一种业务。它为企业和个人提供了一个安全、快捷、方便的电子支付方式"},
+        {"payMenu": "货到付款","firing": "启动","close": "关闭","infomation": "在线支付是指卖方与买方通过因特网上的电子商务网站进行交易时，银行为其提供网上资金结算服务的一种业务。它为企业和个人提供了一个安全、快捷、方便的电子支付方式"},
+        {"payMenu": "第三方支付","firing": "启动","close": "关闭","infomation": "在线支付是指卖方与买方通过因特网上的电子商务网站进行交易时，银行为其提供网上资金结算服务的一种业务。它为企业和个人提供了一个安全、快捷、方便的电子支付方式"},
+        {"payMenu": "线下支付","firing": "启动","close": "关闭","infomation": "在线支付是指卖方与买方通过因特网上的电子商务网站进行交易时，银行为其提供网上资金结算服务的一种业务。它为企业和个人提供了一个安全、快捷、方便的电子支付方式"}
+      ]
+    }
+  },
+  "systemManage": {
+    "columnSetting":[
+      {"columnIntro": "系统首页",
+        "columnInfo": ["首页","地图展示"]},
+      {"columnIntro": "商品管理",
+        "columnInfo": ["品牌列表","商品列表","分类管理"]},
+      {"columnIntro": "交易管理",
+        "columnInfo": ["订单管理","退款管理","交易统计","订单处理","物流管理","订单统计"]},
+      {"columnIntro": "支付管理",
+        "columnInfo": ["支付配置","付款配置"]},
+      {"columnIntro": "支付管理",
+        "columnInfo": ["支付配置","付款配置"]}
+    ],
+    "systemDaily": {
+      "dailyCloumn": {"loginName": "登录名","lever": "等级","status": "状态","IP": "IP地址","request": "访问地址","start": "开始时间","end": "结束时间"},
+      "requestLiat": [
+        {"login": "admin","grand": "超级管理员","online": "在线","IPaddress": "10.35.170.59","askAddress": "北京大兴","startTime": "2018-07-06 12:30:20","endTime": "2018-07-06 13:20:30"},
+        {"login": "admin","grand": "超级管理员","online": "在线","IPaddress": "10.35.170.59","askAddress": "北京大兴","startTime": "2018-07-06 12:30:20","endTime": "2018-07-06 13:20:30"},
+        {"login": "admin","grand": "超级管理员","online": "在线","IPaddress": "10.35.170.59","askAddress": "北京大兴","startTime": "2018-07-06 12:30:20","endTime": "2018-07-06 13:20:30"},
+        {"login": "admin","grand": "超级管理员","online": "在线","IPaddress": "10.35.170.59","askAddress": "北京大兴","startTime": "2018-07-06 12:30:20","endTime": "2018-07-06 13:20:30"},
+        {"login": "admin","grand": "超级管理员","online": "在线","IPaddress": "10.35.170.59","askAddress": "北京大兴","startTime": "2018-07-06 12:30:20","endTime": "2018-07-06 13:20:30"},
+        {"login": "admin","grand": "超级管理员","online": "在线","IPaddress": "10.35.170.59","askAddress": "北京大兴","startTime": "2018-07-06 12:30:20","endTime": "2018-07-06 13:20:30"},
+        {"login": "admin","grand": "超级管理员","online": "在线","IPaddress": "10.35.170.59","askAddress": "北京大兴","startTime": "2018-07-06 12:30:20","endTime": "2018-07-06 13:20:30"}
+      ]
+    }
+  },
+  "articalManage": {
+    "articalList": {
+      "articalColumn": {
+        "classify": "所属分类","sort": "排序","title": "标题","synopsis": "简介","addTime": "添加时间","status": "状态","operater": "操作"
+      },
+      "articalNemn": [
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]},
+        {"helpCenter": "帮助中心","sorts": "2","question": "订单已提交成功，如何付款？","content": "付款方式分为以下几种：（注：先款订单请您在订单提交后24小时内进行支付）","addTime": "2018-07-06 12:20:30","status": "待发布","operaterList": ["发布","编辑","删除"]}
+
+      ]
+    }
+  },
+  "administrator": {
+    "authority": {
+      "powerCloumn": {
+        "powerName": "权限名称","peopleNum": "人数","userName": "用户名称","describe": "描述","operate": "操作"
+      },
+      "adminList": [
+        {"peopleClassify": "超级管理员","humanity": "1","userInfo": ["admimn001"],"ability": "拥有至高无上的权利,操作系统的所有权限","operation": ["编辑","删除"]},
+        {"peopleClassify": "普通管理员","humanity": "3","userInfo": ["admimn002","admin003","admin004"],"ability": "拥有网站的系统大部分使用权限，没有权限管理功能。","operation": ["编辑","删除"]},
+        {"peopleClassify": "编辑管理员","humanity": "1","userInfo": ["admimn005","admin006","admin007","admin008","admin009"],"ability": "拥有部分权限，主要进行编辑功能，无边界订单功能，权限分配功能。","operation": ["编辑","删除"]}
+
+      ]
+    },
+    "adminSetting": {
+      "powerCloumn": {
+        "powerName": "登录名","phoneNum": "手机","email": "邮箱","rola": "角色","addTime": "加入时间","status": "状态","operater": "操作"
+      },
+      "adminList": [
+        {"peopleClassify": "隔壁老王","humanity": "12342424244","userInfo": "473483478@qq.com","ability": "超级管理员","operation": ["停用","编辑","删除","查看"]},
+        {"peopleClassify": "超超娃","humanity": "18479943758","userInfo": "12312323@126.com","ability": "普通管理员","operation": ["编辑","删除"]},
+        {"peopleClassify": "日把歘","humanity": "18395583958","userInfo": "13139472349@136.com","ability": "普通管理员","operation": ["编辑","删除"]}
+
+      ]
+    },
+    "daminInfo": {
+      "adminIntro": {
+        "ID": "12345","realName": "张小泉","sex": "男","age": "24","phone": "13232323343","email": "48728392@qq.com","QQ": "74328423","power": "普通管理员","regist": "2017-07-06","image": "/static/01.jpg"
+      },
+      "adminOperate": [
+        {"active": "1","doing": "添加了10个商品信息","when": "2018-07-06 14:30:20","result": "所有商品保存成功"},
+        {"active": "2","doing": "添加了10个商品信息","when": "2018-07-06 14:30:20","result": "所有商品保存成功"},
+        {"active": "3","doing": "添加了10个商品信息","when": "2018-07-06 14:30:20","result": "所有商品保存成功"},
+        {"active": "4","doing": "添加了10个商品信息","when": "2018-07-06 14:30:20","result": "所有商品保存成功"},
+        {"active": "5","doing": "添加了10个商品信息","when": "2018-07-06 14:30:20","result": "所有商品保存成功"},
+        {"active": "6","doing": "添加了10个商品信息","when": "2018-07-06 14:30:20","result": "所有商品保存成功"},
+        {"active": "7","doing": "添加了10个商品信息","when": "2018-07-06 14:30:20","result": "所有商品保存成功"},
+        {"active": "8","doing": "添加了10个商品信息","when": "2018-07-06 14:30:20","result": "所有商品保存成功"},
+        {"active": "9","doing": "添加了10个商品信息","when": "2018-07-06 14:30:20","result": "所有商品保存成功"},
+        {"active": "10","doing": "添加了10个商品信息","when": "2018-07-06 14:30:20","result": "所有商品保存成功"}
+
+
+      ]
+
+    }
+  },
+  "VipManage": {
+    "vipList": [
+      {"userName": "差不多先生","realName": "王钢蛋","sex": "男","phone": "14334345465","eamil": "34792374@qq.com","address": "西安市雁塔区","join": "2018-07-06","lever": "普通用户","status": "启用","deit": ["停用","编辑","删除"]},
+      {"userName": "差不多先生","realName": "王钢蛋","sex": "男","phone": "14334345465","eamil": "34792374@qq.com","address": "西安市雁塔区","join": "2018-07-06","lever": "普通用户","status": "启用","deit": ["停用","编辑","删除"]},
+      {"userName": "差不多先生","realName": "王钢蛋","sex": "男","phone": "14334345465","eamil": "34792374@qq.com","address": "西安市雁塔区","join": "2018-07-06","lever": "普通用户","status": "启用","deit": ["停用","编辑","删除"]},
+      {"userName": "差不多先生","realName": "王钢蛋","sex": "男","phone": "14334345465","eamil": "34792374@qq.com","address": "西安市雁塔区","join": "2018-07-06","lever": "普通用户","status": "启用","deit": ["停用","编辑","删除"]},
+      {"userName": "差不多先生","realName": "王钢蛋","sex": "男","phone": "14334345465","eamil": "34792374@qq.com","address": "西安市雁塔区","join": "2018-07-06","lever": "普通用户","status": "启用","deit": ["停用","编辑","删除"]},
+      {"userName": "差不多先生","realName": "王钢蛋","sex": "男","phone": "14334345465","eamil": "34792374@qq.com","address": "西安市雁塔区","join": "2018-07-06","lever": "普通用户","status": "启用","deit": ["停用","编辑","删除"]},
+      {"userName": "差不多先生","realName": "王钢蛋","sex": "男","phone": "14334345465","eamil": "34792374@qq.com","address": "西安市雁塔区","join": "2018-07-06","lever": "普通用户","status": "启用","deit": ["停用","编辑","删除"]},
+      {"userName": "差不多先生","realName": "王钢蛋","sex": "男","phone": "14334345465","eamil": "34792374@qq.com","address": "西安市雁塔区","join": "2018-07-06","lever": "普通用户","status": "启用","deit": ["停用","编辑","删除"]},
+      {"userName": "差不多先生","realName": "王钢蛋","sex": "男","phone": "14334345465","eamil": "34792374@qq.com","address": "西安市雁塔区","join": "2018-07-06","lever": "普通用户","status": "启用","deit": ["停用","编辑","删除"]},
+      {"userName": "差不多先生","realName": "王钢蛋","sex": "男","phone": "14334345465","eamil": "34792374@qq.com","address": "西安市雁塔区","join": "2018-07-06","lever": "普通用户","status": "启用","deit": ["停用","编辑","删除"]},
+      {"userName": "差不多先生","realName": "王钢蛋","sex": "男","phone": "14334345465","eamil": "34792374@qq.com","address": "西安市雁塔区","join": "2018-07-06","lever": "普通用户","status": "启用","deit": ["停用","编辑","删除"]}
+
+    ]
+  },
+  "advertiseManage":{
+    "advertList":{
+      "advertClassify": {
+        "adverTitle": "广告分类",
+        "classifyList": [
+          {"iconfonts": "sadasdas","adverName": "首页轮播广告","advertNum": "(20)"},
+          {"iconfonts": "sadasdas","adverName": "轮播广告小区","advertNum": "(20)"},
+          {"iconfonts": "sadasdas","adverName": "轮播广告次小区","advertNum": "(20)"},
+          {"iconfonts": "sadasdas","adverName": "通用广告","advertNum": "(20)"},
+          {"iconfonts": "sadasdas","adverName": "图书影像","advertNum": "(20)"}
+        ]
+      },
+      "adverBox": {
+        "advertCloumn": {
+          "sort": "排序","class": "分类","images": "图片","size": "尺寸（大小）","link": "链接地址","onlineTime": "上线时间"
+        },
+        "advertForm": [
+          {"reorder":"1","classify": "幻灯片","imgs": "/static/imgs.jgp","window": "1080*1890","hrefLink": "www.baidu.com","addTime": "2018-07-06"},
+          {"reorder":"1","classify": "幻灯片","imgs": "/static/imgs.jgp","window": "1080*1890","hrefLink": "www.baidu.com","addTime": "2018-07-06"},
+          {"reorder":"1","classify": "幻灯片","imgs": "/static/imgs.jgp","window": "1080*1890","hrefLink": "www.baidu.com","addTime": "2018-07-06"},
+          {"reorder":"1","classify": "幻灯片","imgs": "/static/imgs.jgp","window": "1080*1890","hrefLink": "www.baidu.com","addTime": "2018-07-06"},
+          {"reorder":"1","classify": "幻灯片","imgs": "/static/imgs.jgp","window": "1080*1890","hrefLink": "www.baidu.com","addTime": "2018-07-06"},
+          {"reorder":"1","classify": "幻灯片","imgs": "/static/imgs.jgp","window": "1080*1890","hrefLink": "www.baidu.com","addTime": "2018-07-06"},
+          {"reorder":"1","classify": "幻灯片","imgs": "/static/imgs.jgp","window": "1080*1890","hrefLink": "www.baidu.com","addTime": "2018-07-06"},
+          {"reorder":"1","classify": "幻灯片","imgs": "/static/imgs.jgp","window": "1080*1890","hrefLink": "www.baidu.com","addTime": "2018-07-06"},
+          {"reorder":"1","classify": "幻灯片","imgs": "/static/imgs.jgp","window": "1080*1890","hrefLink": "www.baidu.com","addTime": "2018-07-06"},
+          {"reorder":"1","classify": "幻灯片","imgs": "/static/imgs.jgp","window": "1080*1890","hrefLink": "www.baidu.com","addTime": "2018-07-06"},
+          {"reorder":"1","classify": "幻灯片","imgs": "/static/imgs.jgp","window": "1080*1890","hrefLink": "www.baidu.com","addTime": "2018-07-06"}
+
+        ]
+      }
+    },
+    "advertClass": {
+      "classCloumn": {
+        "sort": "排序","className": "分类名称","introduct": "介绍","advertNums": "广告数量","newTime": "添加时间（最新）","status": "状态","remare": "备注","operater":"操作"
+      },
+      "adverItems": [
+        {"sort": "1","calssifyName": "首页轮播图（大）","introdoc": "首页轮播图","adverNum": "4","time": "2-18-07-06 12:30:30","status": "启用","reamrk": "","options": ["添加","删除","查看"]},
+        {"sort": "1","calssifyName": "首页轮播图（大）","introdoc": "首页轮播图","adverNum": "4","time": "2-18-07-06 12:30:30","status": "启用","reamrk": "","options": ["添加","删除","查看"]},
+        {"sort": "1","calssifyName": "首页轮播图（大）","introdoc": "首页轮播图","adverNum": "4","time": "2-18-07-06 12:30:30","status": "启用","reamrk": "","options": ["添加","删除","查看"]},
+        {"sort": "1","calssifyName": "首页轮播图（大）","introdoc": "首页轮播图","adverNum": "4","time": "2-18-07-06 12:30:30","status": "启用","reamrk": "","options": ["添加","删除","查看"]},
+        {"sort": "1","calssifyName": "首页轮播图（大）","introdoc": "首页轮播图","adverNum": "4","time": "2-18-07-06 12:30:30","status": "启用","reamrk": "","options": ["添加","删除","查看"]}
+
+      ]
+    }
+  },
+  "webManage": {
+    "columnManage": {
+      "columnList": {
+        "columnNemu": "栏目名称","hrefAddress": "链接地址","addTime": "添加时间","grade": "级别","status": "状态","operate": "操作"
+      },
+      "nemuList": [
+        {"pages": "首页","links": "www.baidu.com","nowTime": "2-18-07-06","lever": "二级","show": "显示","active": ["删除","修改"]},
+        {"pages": "首页","links": "www.baidu.com","nowTime": "2-18-07-06","lever": "二级","show": "显示","active": ["删除","修改"]},
+        {"pages": "首页","links": "www.baidu.com","nowTime": "2-18-07-06","lever": "二级","show": "显示","active": ["删除","修改"]},
+        {"pages": "首页","links": "www.baidu.com","nowTime": "2-18-07-06","lever": "二级","show": "显示","active": ["删除","修改"]},
+        {"pages": "首页","links": "www.baidu.com","nowTime": "2-18-07-06","lever": "二级","show": "显示","active": ["删除","修改"]},
+        {"pages": "首页","links": "www.baidu.com","nowTime": "2-18-07-06","lever": "二级","show": "显示","active": ["删除","修改"]},
+        {"pages": "首页","links": "www.baidu.com","nowTime": "2-18-07-06","lever": "二级","show": "显示","active": ["删除","修改"]},
+        {"pages": "首页","links": "www.baidu.com","nowTime": "2-18-07-06","lever": "二级","show": "显示","active": ["删除","修改"]}
+
+      ]
+    }
+  },
+  "messageManage": {
+    "messageFeedback": {
+      "messageColumn": {
+        "userName": "用户名","messageContent": "留言内容","time": "时间","status": "状态","reward": "是否回复","operater": "操作"
+      },
+      "messageList": [
+        {"userName": "王荣辉","leaveMessage": "“第二届中国无锡水蜜桃开摘节”同时开幕，为期三个月的蜜桃季全面启动。值此京东“618品质狂欢节”之际，中国特产无锡馆限量上线618份...","times": "2018-07-06 12:30:20","status": "已浏览","already": "未回复","active": ["回复","删除"]},
+        {"userName": "王荣辉","leaveMessage": "“第二届中国无锡水蜜桃开摘节”同时开幕，为期三个月的蜜桃季全面启动。值此京东“618品质狂欢节”之际，中国特产无锡馆限量上线618份...","times": "2018-07-06 12:30:20","status": "已浏览","already": "未回复","active": ["回复","删除"]},
+        {"userName": "王荣辉","leaveMessage": "“第二届中国无锡水蜜桃开摘节”同时开幕，为期三个月的蜜桃季全面启动。值此京东“618品质狂欢节”之际，中国特产无锡馆限量上线618份...","times": "2018-07-06 12:30:20","status": "已浏览","already": "未回复","active": ["回复","删除"]},
+        {"userName": "王荣辉","leaveMessage": "“第二届中国无锡水蜜桃开摘节”同时开幕，为期三个月的蜜桃季全面启动。值此京东“618品质狂欢节”之际，中国特产无锡馆限量上线618份...","times": "2018-07-06 12:30:20","status": "已浏览","already": "未回复","active": ["回复","删除"]},
+        {"userName": "王荣辉","leaveMessage": "“第二届中国无锡水蜜桃开摘节”同时开幕，为期三个月的蜜桃季全面启动。值此京东“618品质狂欢节”之际，中国特产无锡馆限量上线618份...","times": "2018-07-06 12:30:20","status": "已浏览","already": "未回复","active": ["回复","删除"]},
+        {"userName": "王荣辉","leaveMessage": "“第二届中国无锡水蜜桃开摘节”同时开幕，为期三个月的蜜桃季全面启动。值此京东“618品质狂欢节”之际，中国特产无锡馆限量上线618份...","times": "2018-07-06 12:30:20","status": "已浏览","already": "未回复","active": ["回复","删除"]},
+        {"userName": "王荣辉","leaveMessage": "“第二届中国无锡水蜜桃开摘节”同时开幕，为期三个月的蜜桃季全面启动。值此京东“618品质狂欢节”之际，中国特产无锡馆限量上线618份...","times": "2018-07-06 12:30:20","status": "已浏览","already": "未回复","active": ["回复","删除"]},
+        {"userName": "王荣辉","leaveMessage": "“第二届中国无锡水蜜桃开摘节”同时开幕，为期三个月的蜜桃季全面启动。值此京东“618品质狂欢节”之际，中国特产无锡馆限量上线618份...","times": "2018-07-06 12:30:20","status": "已浏览","already": "未回复","active": ["回复","删除"]},
+        {"userName": "王荣辉","leaveMessage": "“第二届中国无锡水蜜桃开摘节”同时开幕，为期三个月的蜜桃季全面启动。值此京东“618品质狂欢节”之际，中国特产无锡馆限量上线618份...","times": "2018-07-06 12:30:20","status": "已浏览","already": "未回复","active": ["回复","删除"]},
+        {"userName": "王荣辉","leaveMessage": "“第二届中国无锡水蜜桃开摘节”同时开幕，为期三个月的蜜桃季全面启动。值此京东“618品质狂欢节”之际，中国特产无锡馆限量上线618份...","times": "2018-07-06 12:30:20","status": "已浏览","already": "未回复","active": ["回复","删除"]}
+
+      ]
+    }
+  }
+}

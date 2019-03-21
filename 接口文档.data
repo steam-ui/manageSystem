@@ -1,0 +1,29 @@
+接口文档
+请求方式:post
+请求参数
+{   
+
+    商品类型 type
+    品牌 brand
+    编码 id
+    商品名 name
+    描述 msg
+    原价 oprice
+    现价 nprice
+    图片 pic
+    规格 guige
+    数量 ku //number类型
+    是否上架 status  // bollean类型
+
+}
+
+添加品牌接口文档
+请求方式post
+{
+    品牌名称：brandName
+    品牌图片：brandPic
+    品牌编码:id
+    地区：brandAreas
+
+}
+type=aa&&brand=bb&&id=12121&&name=dssds&&oprice=123&&nprice=898&&pic=1.jpg&&guige=dsadasdad&&ku=20&&status=true&&msg=dsdsad
